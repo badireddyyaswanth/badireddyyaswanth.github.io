@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.image-developer {
+    width: 220px;
+    margin-top: 55px;
+}
+
+.developer-heading {
+    font-family: Bree Serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.developer-paragraph {
+    font-family: Bree Serif;
+    color: #b6cfe9;
+    font-size: 10px;
+}
+
+.image-developerr {
+    width: 140px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.image-developerrr {
+    width: 140px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.bg-contt {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.carding {
+    background-color: #f6c56e;
+    padding: 25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-head {
+    color: #323f4b;
+    font-family: "Bree Serif";
+    font-size: 30px;
+}
+
+.card-desc {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card-btn {
+    background-color: #ffffff;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 500;
+    width: 120px;
+    height: 38px;
+    border-width: 0px;
+    border-radius: 8px;
+}
+
+.bg-containerrrr {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.card-item {
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.head-sec {
+    color: #5752ab;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 17px;
+    font-family: Bree Serif;
+}
+
+.des-sec {
+    color: #323f4b;
+    margin-left: 17px;
+    margin-right: 15px;
+    font-family: Roboto;
+}
+
+.learn-more {
+    background-color: #ffffff;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-color: #ffffff;
+    border-width: 1px;
+    font-size: 12px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 17px;
+    margin-bottom: 14px;
+    margin-right: 14px;
+}
+
+.save {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    background-color: #024bb8;
+    color: #ffffff;
+    border-width: 1px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 0px;
+    margin-bottom: 17px;
+}
+
+.bg-music {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-stars-bg.png');
+    background-size: cover;
+    padding: 25px;
+    padding-top: 70px;
+}
+
+.music-heading {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 25px;
+}
+
+.music-paragraph {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 14px;
+    margin-bottom: 12vh;
+}
+
+.card-info {
+    padding: 30px;
+    margin: 20px;
+}
+
+.music-image {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png');
+    height: 23vh;
+    background-size: cover;
+    padding: 5px;
+}
+
+.heading-music {
+    color: #ffe7bf;
+    font-size: 12px;
+    padding: 40px;
+    font-family: "Bree Serif";
+    font-weight: bold;
+}
+
+.paragraph-music {
+    color: white;
+    font-family: "Bree Serif";
+    margin: 20px;
+    font-size: 16px;
+}
+
+.bg-night {
+    background-color: #03174c;
+    height: 100vh;
+}
+
+.image-night {
+    width: 100vw;
+    height: 40vh;
+}
+
+.night-heading {
+    font-family: Bree Serif;
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.night-paragraph {
+    font-family: Bree Serif;
+    color: #98a1bd;
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+.night-headingg {
+    font-family: Bree Serif;
+    color: #98a1bd;
+    padding: 2px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.night-image {
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.clrr {
+    background-color: #03174c;
+    height: 100vh;
+
+}
+
+.button {
+    color: white;
+    font-family: "Bree Serif";
+    background-color: #8e97fd;
+    border-radius: 38px;
+    border-width: 0;
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 36vw;
+}
+
+.night-headinggg {
+    font-family: Bree Serif;
+    color: #ffffff;
+    padding: 2px;
+    margin-left: 13px;
+    font-size: 20px;
+}
+
+.clrrr {
+    background-color: #03174c;
+    height: 100vh;
+
+}
+
+.bg-container {
+    background-image: url("https://img.freepik.com/free-photo/wat-arun-temple-dawn-twilight-bangkok-thailand_554837-458.jpg?w=360&t=st=1704696106~exp=1704696706~hmac=e135e8bf36d2a8228899f76488b308fa75fd0ea2d15b01f1a70716cc9021e7d6");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.card {
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: 0px;
+    height: 30vh;
+}
+
+.buttonn {
+    background-color: #25b1cc;
+    color: white;
+    border-radius: 19px;
+    border-width: 0px;
+    padding: 7px;
+    font-size: 14px;
+    margin: 3px;
+}
+
+.main-headd {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.sec-para {
+    font-family: Roboto;
+}
+
+.bg-cont {
+    background-image: url("https://wallpapercave.com/wp/wp4002569.jpg");
+    background-size: cover;
+    height: 130vh;
+}
+
+.main-head {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Roboto;
+    padding-top: 11px;
+    padding-left: 11px;
+}
+
+.place-card {
+    background-color: #ffffff;
+    border-radius: 13px;
+    padding: 9px;
+    margin: 13px;
+    overflow: hidden;
+}
+
+.place-card-head {
+    color: #0f0e46;
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.place-info {
+    font-size: 12px;
+    font-family: Roboto;
+    text-align: left;
+    padding: 5px;
+    font-weight: bold;
+    color: #7a7d7b;
+}
+
+.img-set {
+    height: 100px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+.detailed-view-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.detailed-view-heading {
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding: 17px;
+}
+
+.detailed-view-cont {
+    background-color: #ffffff;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 30px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.detailed-view-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+    overflow: hidden;
+}
+
+.detailed-view-card-text-container {
+    padding: 16px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+.placeee{
+    display: flex;
+    justify-content: end;
+}
+.shaper {
+    background: gray url(https://image.ibb.co/ky3Y0S/teee.png) repeat 0 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    height: 100vh;
+    padding-top: 120px;
+    box-sizing: border-box;
+    animation: slide 30s linear infinite;
+  }
+  
+@keyframes slide {
+      from { background-position: 0 0; }
+      to { background-position: -512px -512px; }
+}
+.neon{
+    --border: 3.6px;
+    --bg: black;
+    
+    position: relative;
+    background: var(--bg);
+    border-radius: 20px;
+    display: grid;
+    place-content: center;
+    color: #CCC;
+  
+  }
+  
+  
+  @property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+  @property --color{
+    syntax: "<color>";
+    initial-value: blue;
+    inherits: false;
+  }
+  .v1::before,
+  .v1::after{
+    content: '';
+    position: absolute;
+    inset: calc(var(--border) * -1);
+    
+    background-image: conic-gradient(from var(--angle), red,var(--color),red);
+    z-index: -1;
+    border-radius: inherit;
+    animation: neon-rotate 5s linear infinite;
+  }
+  .v1::before{
+    filter: blur(1rem);
+    opacity: 0.5;
+  }
+  @keyframes neon-rotate{
+    from{
+      --angle: 0deg;
+       --color: blue;
+  
+    }
+    50%{
+      --color: green;
+    }
+    to{
+       --angle: 360deg;
+       --color: blue;
+    }
+  }
+  
+  .v2{
+    border: var(--border) solid transparent;
+    background: 
+      linear-gradient(var(--bg) 0 0) padding-box,
+      conic-gradient(from var(--angle), red,var(--color),red) border-box;
+    animation: neon-rotate 0.8s linear infinite;
+  
+  }
