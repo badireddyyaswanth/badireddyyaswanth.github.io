@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="testcase1.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<meta name="robots" content="none,noarchive"/>
+</head>
+
+<body>
+    <div id="sectionHOME" <div class="bg-containerr shaper">
+        <div class="text-center">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/011/153/368/small_2x/3d-website-developer-working-on-laptop-illustration-png.png" class="image-developer" />
+            <h1 class="developer-heading">My Projects</h1>
+            <p class="developer-paragraph"> These are a few of my static website projects that i have <br />
+                developed using HTML,CSS and Bootstrap</p>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="image-developerr neon v1 neon v2" onclick="display('sectionAdvanced')" />
+            <div>
+                <img src="https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2018/05/trip-1526620844.jpg" class="image-developerrr neon v1 neon v2" onclick="display('sectionTRIP')" />
+            </div>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="image-developerrr neon v1 neon v2" onclick="display('sectionFOOD')" />
+
+            <div>
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png" class="image-developerrr neon v1 neon v2" onclick="display('sectionMUSIC')" />
+            </div>
+        </div>
+    </div>
+    <div id="sectionFOOD">
+        <div class="bg-contt d-flex flex-column justify-content-end">
+            <div class="carding">
+                <h1 class="card-head">Happy Meals</h1>
+                <p class="card-desc">Discover the best foods over the 1,000 restaurants</p>
+                <button class="card-btn">Book Now</button>
+                <button class="card-btn" onclick="display('sectionHOME')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionAdvanced">
+        <div class="bg-containerrrr d-flex flex-column justify-content-end">
+            <div class="card-item ">
+                <h1 class="head-sec">
+                    Advanced Technologies
+                </h1>
+                <p class="des-sec">Machinery and equipment developed from the application of scientific knowledge</p>
+                <div>
+                    <button class="learn-more">
+                        Learn More
+                    </button>
+                    <button class="save">
+                        Save Draft
+                    </button>
+                    <button class="learn-more" onclick="display('sectionHOME')">
+                        Back
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionMUSIC">
+        <div class="clrr">
+            <div class="bg-music d-flex flex-column justify-content-center text-center">
+                <h1 class="music-heading">Sleep Music</h1>
+                <p class="music-paragraph">Soothing bedtime music to help you fall into a deep and natural sleep</p>
+            </div>
+            <div class="music-image d-flex flex-column justify-content-center text-center card-info">
+                <h1 class="music-heading">Night Island</h1>
+            </div>
+            <p class="paragraph-music text-center">Non-stop 8-hour mixes of our most popular sleep audio</p>
+            <button class="button" onclick="display('sectionsdetails')">Get Started</button>
+            <button class="button" onclick="display('sectionHOME')">Back</button>
+        </div>
+    </div>
+    <div id="sectionsdetails" style="display:none;">
+        <div class="bg-night clrrr">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png" class="image-night" />
+            <h1 class="night-heading">Night Island</h1>
+            <p class="night-paragraph">Ease the mind into a restful night's sleep with these deep, ambient tones</p>
+            <h1 class="night-headingg">45 MIN SLEEP MUSiC</h1>
+            <h1 class="night-headinggg">Related</h1>
+            <div class="d-flex flex-row justify-content-beween">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-clouds-img.png" class="night-image" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sweet-sleep-img.png" class="night-image" />
+            </div>
+            <button class="button" onclick="display('sectionMUSIC')">Back</button>
+        </div>
+    </div>
+    <div id="sectionTRIP">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="card">
+                <h1 class="main-headd">Tourism</h1>
+                <p class="sec-para">Plan Your Trip</p>
+                <button class="buttonn" onclick="display('sectionHOME')">Home</button>
+                <button class="buttonn" onclick="display('sectionfavplacess')">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionfavplacess">
+        <div class="bg-cont">
+            <h1 class="main-head">Favourite Places</h1>
+            <div class="place-card d-flex flex-row" onclick="display('sectionBangkokdetailedview')">
+                <div>
+                    <h1 class="place-card-head">Bangkok</h1>
+                    <p class="place-info">
+                        Bangkok, known in Thai as Krung Thep Maha Nakhon and colloquially as Krung
+                    </p>
+                </div>
+                <div class="placeee">
+                <img src="https://i0.wp.com/www.thailand-tourism.net/wp-content/uploads/2021/11/shutterstock_785307685-1.jpg?resize=923%2C677&ssl=1" class="img-set" />
+            </div>
+        </div>
+            <div class="place-card d-flex flex-row" onclick="display('sectionBaliDetailedView')">
+                <div>
+                    <h1 class="place-card-head">Bali</h1>
+                    <p class="place-info">
+                        The province is Indonesia's main tourist destination, with a significant rise in tourism since the 1980s.
+                    </p>
+                </div>
+                <img src="https://www.indonesia.travel/content/dam/indtravelrevamp/en/destinations/revisi-2020/destinations-thumbnail/Bali-Thumbnail.jpg" class="img-set" />
+            </div>
+            <div class="place-card d-flex flex-row" onclick="display('sectionGoaDetailedView')">
+                <div>
+                    <h1 class="place-card-head">Goa</h1>
+                    <p class="place-info">
+                        Goa is a state on the southwestern coast of India within the Konkan sea region
+                    </p>
+                </div>
+                <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/10/18/16/goa-overview.jpg" class="img-set" />
+            </div>
+            <div class="place-card d-flex flex-row" onclick="display('sectionLakshadweepDetailedView')">
+                <div>
+                    <h1 class="place-card-head">Lakshadweep</h1>
+                    <p class="place-info">
+                        Lakshadweep It is an archipelago of 35 islands serving as the maritime boundary
+                    </p>
+                </div>
+                <img src="https://media.licdn.com/dms/image/D5612AQHYtOBHGCcDPA/article-cover_image-shrink_600_2000/0/1704606295718?e=2147483647&v=beta&t=OKJvfuwjbeJQdL9UzFhPvzHf1kl5RlyNv_qaylhU6Kc" class="img-set" />
+            </div>
+            <div class="button-container d-flex flex-row justify-content-between">
+                <button class="btn btn-dark" onclick="display('sectionTRIP')">Back</button>
+                <button class="btn btn-dark" onclick="display('sectionHOME')">Home</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionBangkokdetailedview">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">
+                Detailed View
+            </h1>
+            <div class="detailed-view-cont">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/aSPqIH7I-As?rel=0" allowfullscreen></iframe>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Bangkok</h1>
+                    <ul class="detailed-view-card-description">
+                        <li>Bangkok is the capital and most populous city of Thailand, located on the delta of the Chao Phraya River, about 25 miles (40 km) from the Gulf of Thailand.</li>
+                        <li>Bangkok is the only cosmopolitan city in a country of small towns and villages and is Thailand’s cultural and commercial center.</li>
+                        <li>Bangkok is a major tourist destination, noted for its bountiful cultural attractions and a nightlife that includes a flourishing sex trade.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="button-container d-flex flex-row justify-content-between">
+                <button class="btn btn-dark" onclick="display('sectionfavplacess')">Back</button>
+                <button class="btn btn-dark" onclick="display('sectionHOME')">Home</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionBaliDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">
+                Detailed View
+            </h1>
+            <div class="detailed-view-cont">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dx0DPwqM3Bs?rel=0" allowfullscreen></iframe>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Bali</h1>
+                    <ul class="detailed-view-card-description">
+                        <li>Bali is a sun-soaked paradise that attracts every type of traveler, from budget-conscious backpackers to luxury jet-setters.</li>
+                        <li>Bali is the only island in Indonesia that is primarily Hindu and it is an excellent hub of culture and adventure.</li>
+                        <li>Bali is renowned for its natural beauty, including its pristine beaches, vast rice fields, and stunning waterfalls.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="button-container d-flex flex-row justify-content-between">
+                <button class="btn btn-dark" onclick="display('sectionfavplacess')">Back</button>
+                <button class="btn btn-dark" onclick="display('sectionHOME')">Home</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionGoaDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">
+                Detailed View
+            </h1>
+            <div class="detailed-view-cont">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/h7SAwlnWsjw?rel=0" allowfullscreen></iframe>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Goa</h1>
+                    <ul class="detailed-view-card-description">
+                        <li>Goa is known for its scenic beaches like Calangute, Baga, Candolim, Colva, Agonda, and Palolem.</li>
+                        <li>Goa is home to several historical sites such as the Basilica of Bom Jesus, which was established in 1605 and is one of the most popular tourist attractions.</li>
+                        <li>Goa offers a unique cultural experience with its flea markets, food, and festivals. The Saturday Night Market is a must-visit.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="button-container d-flex flex-row justify-content-between">
+                <button class="btn btn-dark" onclick="display('sectionfavplacess')">Back</button>
+                <button class="btn btn-dark" onclick="display('sectionHOME')">Home</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionLakshadweepDetailedView">
+        <div class="detailed-view-bg-container">
+            <h1 class="detailed-view-heading">
+                Detailed View
+            </h1>
+            <div class="detailed-view-cont">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dx0DPwqM3Bs?rel=0" allowfullscreen></iframe>
+                </div>
+                <div class="detailed-view-card-text-container">
+                    <h1 class="detailed-view-card-heading">Lakshadweep</h1>
+                    <ul class="detailed-view-card-description">
+                        <li>Lakshadweep is an archipelago of 35 islands1 located in the Laccadive Sea, extending between 8 degree N and 12 degree N latitude.</li>
+                        <li>The entire Lakshadweep islands group is made up of coral deposits.</li>
+                        <li>Lakshadweep is a fascinating tourist spot known for its clean beaches, well-managed resorts, abundant greenery, peaceful vibes, and numerous water sports and diving activities.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="button-container d-flex flex-row justify-content-between">
+                <button class="btn btn-dark" onclick="display('sectionfavplacess')">Back</button>
+                <button class="btn btn-dark" onclick="display('sectionHOME')">Home</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+<script src="index.js"></script>
+</body>
+
+</html>
