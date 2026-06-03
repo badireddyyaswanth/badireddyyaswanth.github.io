@@ -8,14 +8,14 @@
 
 .developer-heading {
     font-family: Bree Serif;
-    color: #ffffff;
+    color: #183b56;
     font-size: 20px;
     font-weight: bold;
 }
 
 .developer-paragraph {
     font-family: Bree Serif;
-    color: #b6cfe9;
+    color: #616e7c;
     font-size: 10px;
 }
 
@@ -385,18 +385,3 @@
     display: flex;
     justify-content: end;
 }
-.shaper {
-    background: gray url(https://image.ibb.co/ky3Y0S/teee.png) repeat 0 0;
-    width: 100%;
-    margin: 0;
-    text-align: center;
-    height: 100vh;
-    padding-top: 120px;
-    box-sizing: border-box;
-    -webkit-animation: slide 30s linear infinite;
-  }
-  
-  @-webkit-keyframes slide {
-      from { background-position: 0 0; }
-      to { background-position: -512px -512px; }
-  }
