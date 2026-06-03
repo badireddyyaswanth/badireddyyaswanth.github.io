@@ -393,72 +393,10 @@
     height: 100vh;
     padding-top: 120px;
     box-sizing: border-box;
-    animation: slide 30s linear infinite;
+    -webkit-animation: slide 30s linear infinite;
   }
   
-@keyframes slide {
+  @-webkit-keyframes slide {
       from { background-position: 0 0; }
       to { background-position: -512px -512px; }
-}
-.neon{
-    --border: 3.6px;
-    --bg: black;
-    
-    position: relative;
-    background: var(--bg);
-    border-radius: 20px;
-    display: grid;
-    place-content: center;
-    color: #CCC;
-  
-  }
-  
-  
-  @property --angle{
-    syntax: "<angle>";
-    initial-value: 0deg;
-    inherits: false;
-  }
-  @property --color{
-    syntax: "<color>";
-    initial-value: blue;
-    inherits: false;
-  }
-  .v1::before,
-  .v1::after{
-    content: '';
-    position: absolute;
-    inset: calc(var(--border) * -1);
-    
-    background-image: conic-gradient(from var(--angle), red,var(--color),red);
-    z-index: -1;
-    border-radius: inherit;
-    animation: neon-rotate 5s linear infinite;
-  }
-  .v1::before{
-    filter: blur(1rem);
-    opacity: 0.5;
-  }
-  @keyframes neon-rotate{
-    from{
-      --angle: 0deg;
-       --color: blue;
-  
-    }
-    50%{
-      --color: green;
-    }
-    to{
-       --angle: 360deg;
-       --color: blue;
-    }
-  }
-  
-  .v2{
-    border: var(--border) solid transparent;
-    background: 
-      linear-gradient(var(--bg) 0 0) padding-box,
-      conic-gradient(from var(--angle), red,var(--color),red) border-box;
-    animation: neon-rotate 0.8s linear infinite;
-  
   }
